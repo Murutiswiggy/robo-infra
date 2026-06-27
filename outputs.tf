@@ -7,13 +7,13 @@ output "vpc_id" {
 }
 
 output "public_sub_ids" {
-  value = aws_subnet.public_sub_1[*].ids
+  value = aws_subnet.public_sub_1[*].id
 }
 
 output "private_sub_ids" {
-  value = aws_subnet.private_sub_1[*].ids
+  value = aws_subnet.private_sub_1[*].id
 }
 
 output "database_sub_ids"{
-    value = aws_subnet.database_sub_1[*].ids
+    value = aws_subnet.database_sub_1[*].id
 }
