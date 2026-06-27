@@ -3,7 +3,7 @@ output "az_info" {
 }
 
 output "vpc_id" {
-  value = aws.vpc.main.id
+  value = aws_vpc.main.id
 }
 
 output "public_sub_ids" {
